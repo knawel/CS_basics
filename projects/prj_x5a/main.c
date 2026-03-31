@@ -1,8 +1,7 @@
 // main.c
 #include "calculator.h"
-#include "esp_log.h"
 
-void app_main(void) {
+void main(void) {
     Calculator c = {
         .result  = 10,
         .operand = 5,
